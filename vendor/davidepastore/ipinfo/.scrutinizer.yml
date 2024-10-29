@@ -1,0 +1,11 @@
+filter:
+    excluded_paths:
+        - test/*
+
+build:
+    environment:
+        php: 7.2.33
+
+tools:
+    external_code_coverage:
+        timeout: 600    # Timeout in seconds.
